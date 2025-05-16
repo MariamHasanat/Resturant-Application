@@ -114,8 +114,8 @@ Thank you for using the Restaurant Management System!
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/restaurant-management-system.git
-   cd restaurant-management-system
+   git clone https://github.com/MariamHasanat/Resturant-Application.git
+   cd Resturant-Application
    ```
 
 2. Run the main script:
