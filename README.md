@@ -1,21 +1,21 @@
-Assignment: Design and Implement a Restaurant Management System
-You are required to design an object-oriented system for managing a restaurant. Your system should include
-at least the following classes:
+#Design and Implementation of a Restaurant Management System
+
+A design of an object-oriented system for managing a restaurant. The system includes the following classes:
 MenuItem: representing an individual menu item with a name, price, and category.
 Order: representing a customer's order with a list of items and a method to calculate the total.
 Restaurant: representing the restaurant with a menu and a record of placed orders.
 
 UML Sketch:
 
-+-------------+ +-----------+ +---------------+
-| MenuItem | | Order | | Restaurant |
-+-------------+ +-----------+ +---------------+
-| - name | | - items[] | | - menu[] |
-| - price | +-----------+ | - orders[] |
-| - category | | +add_item()| +---------------+
-+-------------+ | +total() | | +add_order() |
-+-----------+ | +list_orders()|
-+---------------+
++-------------+   +------------+    +---------------+
+| MenuItem    |   |   Order    |    |   Restaurant  |
++-------------+   +------------+    +---------------+
+| - name      |   | - items[]  |    | - menu[]      |
+| - price     |   +------------+    | - orders[]    |
+| - category  |   | +add_item()|    +---------------+
++-------------+   | +total()   |    | +add_order()  |
+                  +------------+    | +list_orders()|
+                                    +---------------+
 
 Task: Based on the UML, implement the classes in Python using the principles of class definition, constructors,
 data members, instance methods, encapsulation, and optionally static methods.
@@ -33,9 +33,6 @@ Structure your code cleanly with comments explaining the logic and how it connec
 object-oriented programming.
 Example Run:
 
-Intro_OOP_Python.md 2025-05-09
-
-2 / 11
 Welcome to the Restaurant Management System!
 Choose an option:
 1. Add menu item
