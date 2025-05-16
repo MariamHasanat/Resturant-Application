@@ -67,3 +67,5 @@ if __name__ == "__main__":
         
         
         choice = input("\nWelcome to the Restaurant Management System!\nChoose an option:\n1. Add menu item\n2. View menu\n3. Create new order\n4. List all orders\n5. Exit\n")
+
+    print("\nThank you for using the Restaurant Management System!\n")
