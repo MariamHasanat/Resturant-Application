@@ -42,7 +42,6 @@ if __name__ == "__main__":
                     new_order = Order()
                     for item_number in item_numbers:
                         # Check if the item number is valid
-                        # Assuming Restaurant.menu is a list of all menu items
                         if 1 <= item_number <= len(restaurant.get_menu_items()):
                             new_order.add_item(restaurant.get_menu_items()[item_number - 1])
                             
